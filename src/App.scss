@@ -1,0 +1,49 @@
+.row {
+  background-color: rgb(58, 61, 246);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .first-col {
+    text-align: center;
+
+    .header {
+      font-weight: 700;
+      font-size: 36px;
+      padding: 20px 0px;
+    }
+    input {
+      width: 50%;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+    }
+    button {
+      margin-left: 5px;
+      width: 10%;
+      padding: 10px;
+    }
+    .your-list {
+      padding: 30px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-weight: 700;
+      }
+      .listData{
+        margin: 5px;
+        border-radius: 10px;
+        background-color: rgb(42, 100, 201);
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        // text-align: left;
+        width: 50%;
+        padding: 10px;
+      }
+    }
+  }
+}
