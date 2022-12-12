@@ -25,7 +25,7 @@ const TodoComp = () => {
   }
   return (
     <>
-      <div className="container">
+      <div className="container todo-container">
         <div className="row mt-5 py-3">
           <div className="col-md-8 first-col">
             <div className="header">TODO LIST</div>
