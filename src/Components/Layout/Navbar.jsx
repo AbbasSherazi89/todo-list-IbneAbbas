@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -19,17 +19,19 @@ const Navbar = () => {
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                Todo list 
+                <button className="btn btn-outline-success">Todo List</button>
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/hof">
-                HOF
+                <button className="btn btn-outline-success">HOF</button>
               </Link>
-            </li> 
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/hooks">
-                Custom Hooks
+                <button className="btn btn-outline-success">
+                  Custom Hooks
+                </button>
               </Link>
             </li>
           </ul>
