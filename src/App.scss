@@ -1,5 +1,4 @@
 .row {
-  background-color: rgb(58, 61, 246);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -7,7 +6,9 @@
   justify-content: center;
   .first-col {
     text-align: center;
-
+    background-color: rgb(58, 61, 246);
+    margin-top: 30px;
+    border-radius: 10px;
     .header {
       font-weight: 700;
       font-size: 36px;
@@ -19,7 +20,7 @@
       border: none;
       border-radius: 10px;
     }
-    button {
+    .btn-info {
       margin-left: 5px;
       width: 10%;
       padding: 10px;
@@ -33,17 +34,28 @@
       h1 {
         font-weight: 700;
       }
-      .listData{
-        margin: 5px;
-        border-radius: 10px;
-        background-color: rgb(42, 100, 201);
-        font-size: 24px;
-        font-weight: 700;
-        color: #fff;
-        // text-align: left;
-        width: 50%;
-        padding: 10px;
+      .main-listdata{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .listData{
+          margin: 5px;
+          border-radius: 10px;
+          background-color: rgb(42, 100, 201);
+          font-size: 24px;
+          font-weight: 700;
+          color: #fff;
+          // text-align: left;
+          width: 400px;
+          padding: 10px;
+        }
+        .btn-danger {
+          margin-left: 5px;
+          width: 20%;
+          padding: 17px;
+        }
       }
+      
     }
   }
 }
